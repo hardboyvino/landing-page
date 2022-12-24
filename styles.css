@@ -1,0 +1,71 @@
+/* applies to all elements on the page */
+#body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+.gray-background {
+    background: #1f2937;
+    height: 70px;
+}
+
+.large-gray-background {
+    background: #1f2937;
+    height: 550px;
+}
+
+.padding-left-right {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    /* height: 50px; */
+}
+
+/* .round-padding {
+    padding: 5rem;
+    flex-wrap: wrap;
+} */
+
+.flex {
+    display: flex;
+}
+
+.logo-font {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.main-font {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.secondary-font {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.justify-between {
+    justify-content: space-evenly;
+}
+
+.justify-left {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.unlist-list {
+    list-style: none;
+}
+
+.flexing {
+    flex: 1;
+}
+
+.coloring {
+    border:5px solid red;
+}
