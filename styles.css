@@ -25,9 +25,9 @@
 
 .nav-links {
     display: flex;
-    flex: 1;
+    flex: 1.5;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .secondary-fonts {
@@ -44,13 +44,11 @@
     padding-left: 7.5%;
     padding-right: 7.5%;
     gap: 30px;
-    border: 5px solid red;
 }
 
 .block-1,
 .block-2 {
     flex: 1;
-    border: 5px solid red;
 }
 
 .main-font {
@@ -72,4 +70,57 @@
 .block-2 {
     margin: auto;
     justify-content: space-around;
+}
+
+.section-3 {
+    background: #ffffff;
+    height: 450px;
+    display: flex;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    flex-direction: column;
+}
+
+.section-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    flex: initial;
+    /* border: 5px solid red; */
+    align-self: center;
+    /* padding: 25px; */
+    margin: 25px 0px;
+}
+
+.subtext-blocks-holder {
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+    /* border: 5px solid blue; */
+    gap: 5px;
+}
+
+.subtext-blocks {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 5px solid gold; */
+}
+
+.text{
+    flex: 1;
+    color: #1f2937;
+    font-size: 18px;
+    /* border: 5px solid green; */
+    justify-content: flex-end;
+    text-align: center;
+    margin: 0px;
+}
+
+.section-3-image{
+    flex: 1;
+    /* border: 5px solid green; */
+    justify-content: flex-end;
 }
